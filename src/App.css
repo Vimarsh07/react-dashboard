@@ -24,7 +24,14 @@
   color: white;
 }
 
-
+/* Add or modify these styles for the ML Model Dashboard heading */
+h1 {
+  font-size: calc(20px + 4vmin);   /* Increase the font size */
+  font-weight: bold;               /* Make the text bolder */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);  /* Add a subtle shadow */
+  color: #0077CC;                  /* Change color for better contrast */
+  margin-bottom: 20px;             /* Add some space below the heading */
+}
 
 .App-link {
   color: #61dafb;
