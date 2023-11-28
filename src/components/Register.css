@@ -1,3 +1,13 @@
+/* Register.css */
+.register-container {
+    width: 350px;
+    background-color: #ffffff;
+    padding: 50px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.3);
+    animation: fadeIn 0.7s;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     background: url('D:\Vimarsh\Illinois Institute of Tech\F23\ASE\Project\ASE Project\react-dashboard\public\ase_2.png') center/cover no-repeat, linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
@@ -81,26 +91,13 @@ button:active {
     background-color: #004499;
 }
 
-/* Add this to your Login.css */
-.redirect-to-register {
-    text-align: center;
-    margin-top: 20px;
+/* Add this to your Register.css */
+.back-to-login {
+    margin-top: 10px;
+    background-color: #6c757d; /* Different color for distinction */
+    color: white;
 }
 
-.redirect-to-register button {
-    background: none;
-    border: none;
-    color: #007BFF;
-    cursor: pointer;
-    padding: 0;
-}
-
-.register-link {
-    color: rgb(1, 1, 20);
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.register-link:hover {
-    color: darkblue;
+.back-to-login:hover {
+    background-color: #5a6268;
 }
